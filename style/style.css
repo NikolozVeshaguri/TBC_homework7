@@ -1,0 +1,142 @@
+.contact-section{
+    width: 400px;
+    height: 130px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.contact-section p{
+    color: blueviolet;
+}
+.contact-section-info{
+    display: flex;
+}
+.contact-section-info__description{
+    width: 750px ;
+    height: 300px;
+}
+.contact-section-info textarea{
+    resize: none;
+    width: 756px;
+    height: 298px;
+}
+.contact-section-info-person{
+    margin-left: 15px;
+}
+input[type="text"] {
+    width: 370px;
+    height: 59px;
+    border: 2px solid lightgray;
+}
+
+input[type="email"] {
+    width: 370px;
+    height: 59px;
+    border: 2px solid lightgray;
+}
+input[type="button"] {
+    width: 377px;
+    border: 1px solid lightgray;
+    background-color: lightblue;
+    height: 59px;
+    
+    cursor: pointer;
+}
+.contact-section-info-contactus{
+    
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.contact-section-info-contactus__email{
+    width: 230px;
+    height: 250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.contact-section-info-contactus__phone{
+    width: 230px;
+    height: 250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.contact-section-info-contactus__location{
+    width: 230px;
+    height: 250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.contact-section-info-contactus__email__circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68px;
+    height: 68px;
+    background-color: rgb(116, 93, 216);
+    border-radius: 50%;
+
+}
+.photo-section-images{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -50px;
+    margin-top: 50px;
+}
+.footer-section{
+    display: flex;
+    width: 100%;
+    height: 372px;
+    background-color: black;
+    margin-top: 1200px;
+}
+.left-section{
+    position: relative;
+    top: 75px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+}
+.left-section h1,p{
+    color: white;
+    
+}
+.right-section{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 75px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+    width: 1000px;
+    margin-left: 200px;
+}
+.right-section h1{
+    color: white; 
+}
+.right-section p{
+    color: blueviolet; 
+}
+.mini-section{
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.mini-section-image{
+    width: 30px;
+    height: 30px;
+}
+.right-section__2{
+    color: white !important;
+}
